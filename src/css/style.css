@@ -1,0 +1,14 @@
+@import url("../css/reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+
+:root {
+    --light-pink: linear-gradient(135deg, #F8BFBF 0%, #EE8B8B 100%);
+    --dark-brown: #423A3A;
+    --beige: #CE9898;
+    --dark-pink: #EE8B8B;
+    --white: #fff;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
