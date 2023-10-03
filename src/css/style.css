@@ -7,8 +7,20 @@
     --beige: #CE9898;
     --dark-pink: #EE8B8B;
     --white: #fff;
+    --fundo: linear-gradient(150deg, #FFF 0%, #FFF4F4 84.51%);
 }
 
 body {
     font-family: 'Josefin Sans', sans-serif;
+    background: var(--fundo);
+}
+
+.cabecalho {
+    padding: 1.8rem 2rem;
+}
+
+.photo {
+    width: 100%;
+    height: 24rem;
+    object-fit: cover;
 }
