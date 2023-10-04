@@ -24,13 +24,13 @@
         <div class="promotional-photo"><img src="./src/img/promocional-image.svg" alt="Fotografia de mulher branca com cabelo channel cor castanho, ela usa camisa de botão pessêgo." class="photo"></div>
 
         <div class="text-content">
-          <h1><span>We´re here</span> coming soon</h1>
+          <h1 class="title"><span class="span-title">We´re</span> coming soon</h1>
           <p class="text-apresentation">Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</p>
         </div>
 
         <div class="request">
-          <input type="email" name="email" id="in-email">
-          <button>
+          <input type="email" name="email" id="in-email" placeholder="Email Address">
+          <button id="btn-request">
             <svg xmlns="http://www.w3.org/2000/svg" width="104" height="88" viewBox="0 0 104 88" fill="none">
             <g filter="url(#filter0_d_0_64)">
               <rect x="20" y="5" width="64" height="48" rx="24" fill="url(#paint0_linear_0_64)"/>
@@ -52,6 +52,15 @@
               </linearGradient>
             </defs>
           </svg></button>
+
+          <div class="msg-request">
+            <span class="error-msg">
+              Please provide a valid email
+            </span>
+            <span class="valid-msg">
+              Thanks! Please check your email.
+            </span>
+          </div>
         </div>
     </main>
     <script src="./main.js"></script>
