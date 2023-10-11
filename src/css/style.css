@@ -70,12 +70,13 @@ body {
     border-radius: 1.75rem;
     border: 1px solid #CE9898;
     opacity: 0.5;
+    padding-left: 2rem;
 }
 
 #in-email::placeholder {
-    padding-left: 2rem;
     color: var(--light-pink);
 }
+
 
 #btn-request {
     border: none;
