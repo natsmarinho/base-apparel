@@ -15,7 +15,7 @@ body {
     font-family: 'Josefin Sans', sans-serif;
     background: var(--fundo);
     padding-bottom: 30%;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .fundo-desktop {
@@ -65,7 +65,7 @@ body {
 }
 
 #in-email {
-    width: 75%;
+    width: 70%;
     height: 3rem;
     border-radius: 1.75rem;
     border: 1px solid #CE9898;
@@ -75,6 +75,13 @@ body {
 
 #in-email::placeholder {
     color: var(--light-pink);
+}
+
+.img-error {
+    position: relative;
+    right: 6rem;
+    top: .6rem;
+    display: none;
 }
 
 
@@ -125,6 +132,7 @@ body {
 @media screen and (min-width: 1200px) {
     body {
         background-color: transparent;
+        overflow: hidden;
     }
     
     .fundo-desktop {
@@ -156,6 +164,11 @@ body {
 
     #in-email {
         width: 90%;
+    }
+
+    .img-error {
+        left: 13rem;
+        top: -6.5rem;
     }
 
     #btn-request {
